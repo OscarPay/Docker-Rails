@@ -5,3 +5,5 @@
 - `rm -rf [*project-name*]/.git`
 - `docker-compose up`
 - `docker-compose up --build`
+- `docker-compose run [*project-name*] rails hotwire:install`
+- `docker-compose up --build`
