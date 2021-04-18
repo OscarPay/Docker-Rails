@@ -15,3 +15,7 @@
 - `docker-compose up`
 - `docker-compose down`
 - `docker-compose up`
+- `docker-compose up --build`
+- `docker-compose run chat rails db:create`
+- `docker-compose run chat rails db:migrate`
+- `docker-compose up`

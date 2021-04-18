@@ -3,4 +3,6 @@
 USER_ID=1000
 GROUP_ID=1000
 
+DATABASE_URL=postgresql://chat:test_db_password@postgres:5432/chat?encoding=utf8&pool=5&timeout=5000
+
 CACHE_URL=redis://redis:6379/0
