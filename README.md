@@ -7,3 +7,6 @@
 - `docker-compose up --build`
 - `docker-compose run [*project-name*] rails hotwire:install`
 - `docker-compose up --build`
+- `docker-compose run chat rails g scaffold room name:string`
+- `docker-compose run chat rails db:migrate`
+- `docker-compose up`
