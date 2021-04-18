@@ -1,0 +1,6 @@
+# Docker user and group ids
+# On linux these should match your ids
+USER_ID=1000
+GROUP_ID=1000
+
+CACHE_URL=redis://redis:6379/0
