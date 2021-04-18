@@ -13,3 +13,5 @@
 - `docker-compose run chat rails g model message room:references content:text`
 - `docker-compose run chat rails db:migrate`
 - `docker-compose up`
+- `docker-compose down`
+- `docker-compose up`
